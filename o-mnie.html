@@ -2,28 +2,67 @@
 <html lang="pl">
 <head>
 <meta charset="utf-8">
-<title>strona</title>
+<title>Strona</title>
+<style>
+body{
+margin: 0;
+padding: 0;
+background-color: gray;
+color: white;
+}
+h1{
+    color: red;
+}
+header{
+    text-align: center;
+}
+main{
+    width: 100%;
+    background-color: rgb(94, 92, 92);
+}
+nav{
+    background-color: rgb(94, 92, 92);
+    text-align: center;
+}
+li{
+    background-color: rgb(155, 155, 155);
+    border-radius: 10px;
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 5px black;
+    margin: 10px;
+}
+</style>
 </head>
 <body>
-Marek Wilczyński
-uczeń drugiej klasy technikum, technik programista
-O mnie
-Programować zacząłem dwa lata temu od modów do Minecrafta i do dziś najbardziej lubię ten moment, w którym coś zaczyna działać po godzinie szukania literówki. Poza tym gram w kosza i naprawiam stare laptopy.
-Czego się uczę
-PHP
-CSS
-git
-Linux
-Sprzęt
-laptop: Lenovo ThinkPad T480
-system: Fedora
-edytor: VS Code
-Cytat, który mi się podoba
-Program to opis, tylko napisany w sztucznym języku.
-Kontakt
-marek.wilczynski@example.com
-https://github.com/example
-zdjecie.jpg
+<header><h1>Marek Wilczyński</h1>Uczeń drugiej klasy technikum, technik programista</header>
+<main><h2>O mnie</h2>
+<p>Programować zacząłem dwa lata temu od modów do Minecrafta i do dziś najbardziej lubię ten moment, w którym coś zaczyna działać po godzinie szukania literówki. Poza tym gram w kosza i naprawiam stare laptopy.</p>
+<h3>Czego się uczę</h3>
+<li>
+    <ul>PHP</ul>
+    <ul>CSS</ul>
+    <ul>git</ul>
+    <ul>Linux</ul>
+</li>
+<h3>Sprzęt</h3>
+    <li>
+        <ol>laptop: Lenovo ThinkPad T480</ol>
+        <ol>system: Fedora</ol>
+        <ol>edytor: VS Code</ol>
+    </li>
+<p>Cytat,który mi się podoba: Program to opis, tylko napisany w sztucznym języku.</p>
+</main>
+<nav>
+<h4>Kontakt</h4>
+Email: <a href="marek.wilczynski@example.com">marek.wilczynski@example.com</a><br>
+Github: <a href="https://github.com/example">https://github.com/example</a><br>
+</nav>
+<section>
+<img src="zdjecie.jpg" alt="zdjecie">
+</section>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"7046a76ee76e43118af5b91ed04c1909","r":1,"spa":2}' crossorigin="anonymous"></script>
 </body>
 </html>
-
